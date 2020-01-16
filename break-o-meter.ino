@@ -86,10 +86,10 @@ void loop() {
     breaksincemillis = currentbreakmillis;
     Serial.println(breaksince);
   }
-  if (breakagostate == HIGH) {
+/*  if (breakagostate == HIGH) {
     breakagosincemillis = breaksincemillis;
     displayago();
-    }
+    }*/
 }
 
 void displayago()  {
